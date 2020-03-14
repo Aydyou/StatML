@@ -29,6 +29,8 @@ If you are on a windows machine for the second and third command you will get er
 Running this for the first time will take a little bit of time. It will start downloading some pretrained models, for example for translation (fairseq). Depending on your internet speed it can take over and hour for the completion (Even if you have downloaded all the data linked above.). For this part you'll need more than 20GB free space. The data itself is about 11GB but decompressing it requires downloading it to a temporary folder first, therefore it requires double the space (about 23-24 GB).
 If there are not enough space you'll need to delete the incomplete data and start again.
 
+Updata: I changed the model for translation so it might take a little bit less space and less downloading.
+
 
 
 
