@@ -1,4 +1,4 @@
-# Welcome to GitHub Desktop!
+# Statistical ML
 
 This project includes some components of sentiment analysis, question answering and translation. When you run Main.py you'll be promped to click on your localhost and that opens a tab on your browser. You'll see three sections.
 First section is related to the sentiment analysis. You can enter Yelp reviews and it will tell you whether it is positive or negative. If it is negative it will tell you what is the reason. It does support both English and German languages.
