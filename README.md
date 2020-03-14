@@ -4,7 +4,7 @@ This project includes some components of sentiment analysis, question answering 
 First section is related to the sentiment analysis. You can enter Yelp reviews and it will tell you whether it is positive or negative. If it is negative it will tell you what is the reason. It does support both English and German languages.
 Second section measures the relevance of the two senteces entered. The third section finds the answer of the question (first box), in the text of the second box. All sections support English and German. 
 
-The classifier is using Xlnet transformer. It is using Bert based question answering trained on SQUAD. That is how it is finding the reason for the negativity of the review. The translation is done 
+The classifier is using Xlnet transformer. It is using Bert based question answering trained on SQUAD. That is how it is finding the reason for the negativity of the review. The translation is done using the Facebook Fair, a BPE-based transformer model for translation.
 
 In order to use the pretrained data please download the following files and place them in their respective directories.
 
