@@ -1,19 +1,21 @@
 # Welcome to GitHub Desktop!
 
-This project includes some components of sentiment analysis, question answering and translation. When Main.py is run and open the localhost on your browser, you'll see three sections.
-First section if related to sentiments analysis. You can enter Yelp reviews and it will tell you whether it is positive or negative. If it is negative it will tell you what is the reason. It does support both English and German languages.
-Second section measures the relevance of the two senteces entered. The third section finds the answer of the question (first box), in the text of the second box. All sections support English and German.
+This project includes some components of sentiment analysis, question answering and translation. When you run Main.py you'll be promped to click on your localhost and that opens a tab on your browser. You'll see three sections.
+First section is related to the sentiment analysis. You can enter Yelp reviews and it will tell you whether it is positive or negative. If it is negative it will tell you what is the reason. It does support both English and German languages.
+Second section measures the relevance of the two senteces entered. The third section finds the answer of the question (first box), in the text of the second box. All sections support English and German. 
 
+The classifier is using Xlnet transformer. It is using Bert based question answering trained on SQUAD. That is how it is finding the reason for the negativity of the review. The translation is done 
 
-
-In order to use pretrained data please download the following files and place them in their respective directories.
+In order to use the pretrained data please download the following files and place them in their respective directories.
 
 If you want to train the model, you need a csv file with name "train.csv" in the data folder. Furthermore you will need to uncomment all codes in blocks numbered 1,3,5 19 and 22 in Main.ipynb and also turn the 'do_train' to True in args, located at block 8.
 
 After training and generating the files you can return everything to the current status and run it.
 
 
-Before running you would need to install the following packages (You definitely need Pytorch):
+
+
+Before running you would need to install the following packages (You definitely need Pytorch and flask):
 
 `pip install transformers`
 `pip install fairseq`
